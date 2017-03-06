@@ -14,7 +14,7 @@ PROJECTS = SpUnitMeas.bpl SpNom.bpl MatasLib.bpl MatasSpr.bpl \
   MatasAnalize.bpl MatasAnalizeTMC.bpl MatasMna.bpl MatasBSOKart.bpl \
   MatasMBook.bpl MatasTools.bpl MatasOborot.bpl MatasDragMet.bpl MatasFilter.bpl \
   MatasMO.bpl MatasWHKart.bpl MatasPereoc.bpl MatasIstFin.bpl MatasInvObject.bpl \
-  MatasIznosMNA.bpl Matas.exe
+  MatasIznosMNA.bpl Matas.exe LoadDog.bpl
 #------------------------------------------------------------------------------
 default: $(PROJECTS)
 #------------------------------------------------------------------------------
@@ -92,6 +92,9 @@ MatasIznosMNA.bpl: MatasIznosMNA.dpk
   $(DCC)
 
 MatasBSOKart.bpl: MatasBSOKart.dpk
+  $(DCC)
+
+LoadDog.bpl: ..\..\WorkDog\Sources\LoadDogovor\LoadDog.dpk
   $(DCC)
 
 

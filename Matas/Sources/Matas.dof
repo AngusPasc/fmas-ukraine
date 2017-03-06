@@ -115,7 +115,7 @@ AutoIncBuild=1
 MajorVer=1
 MinorVer=1
 Release=1
-Build=18
+Build=24
 Debug=0
 PreRelease=0
 Special=0
@@ -126,7 +126,7 @@ CodePage=1251
 [Version Info Keys]
 CompanyName=ДонНУ
 FileDescription=Учет ТМЦ
-FileVersion=1.1.1.18
+FileVersion=1.1.1.24
 InternalName=MATAS
 LegalCopyright=ДонНУ
 LegalTrademarks=ДонНУ
@@ -134,25 +134,3 @@ OriginalFilename=
 ProductName="Учет ТМЦ, ОС, МНА и МБП"
 ProductVersion=1
 Comments=Система "Учет ТМЦ"
-[HistoryLists\hlConditionals]
-Count=1
-Item0=WITHOUT_ACCESS
-[HistoryLists\hlUnitAliases]
-Count=1
-Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
-[HistoryLists\hlSearchPath]
-Count=3
-Item0=..\..\
-Item1=..\
-Item2=..\..\..\
-[HistoryLists\hlOutputDirectorry]
-Count=1
-Item0=..\..\
-[HistoryLists\hlBPLOutput]
-Count=2
-Item0=..\..\
-Item1=..\
-[HistoryLists\hlDCPOutput]
-Count=2
-Item0=..\..\
-Item1=..\
